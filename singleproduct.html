@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-furniture Store</title>
+    <!-- bootstrap css -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- google font style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700|Roboto:500|Ubuntu:500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awensome   -->
+    <script src="./js/all.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- navbar section -->
+      <nav class="navbar navbar-expand-md navbar-light ">
+        <a href="index.html" class="navbar-brand"
+          ><img src="./img/logo.png" alt="company logo"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item  mx-2">
+              <a href="index.html" class="nav-link ">home</a>
+            </li>
+            <li class="nav-item  mx-2">
+              <a href="product.html" class="nav-link">products</a>
+            </li>
+            <li class="nav-item mx-2 nav-active">
+              <a href="singleproduct.html" class="nav-link">Single Product</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="store.html" class="nav-link">Store</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-icons d-none d-md-flex">
+          <!-- single icons -->
+          <div class="navbar-icon  mx-2">
+            <i class="fas fa-search"></i>
+          </div>
+          <!-- end of single icon -->
+          <!-- single icons -->
+          <a href="#" class="navbar-icon navbar-cart-icon mx-2">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="cart-items">
+              2
+            </div>
+          </a>
+
+          <!-- end of single icons -->
+        </div>
+      </nav>
+      <!-- end of navbar -->
+      <!-- banner  -->
+      <div
+        class="banner-SingleProduct d-flex justify-content-center align-items-center py-5 text-center"
+      >
+        <div>
+          <h1 class="text-capitalize text-yellow text-slanted display-4">
+            comfy sloth
+          </h1>
+          <h1 class="text-capitalize font-weight-bold display-4">
+            single products
+          </h1>
+        </div>
+      </div>
+      <!-- end of banner -->
+    </header>
+    <!-- single product -->
+    <section class="SinglePoroduct py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 mx-auto text-center my-4">
+            <div class="single-product-img">
+              <img
+                src="img/img-products/product-1.png"
+                alt="single-product"
+                class="img-fluid "
+              />
+            </div>
+            <div class="row  mt-3">
+              <div class="col-2 col-sm-2 small-product-photo p-1">
+                <img
+                  src="img/img-products/product-1.png"
+                  alt="single-product"
+                  class="img-fluid "
+                />
+              </div>
+              <div class="col-2 col-sm-2 small-product-photo p-1">
+                <img
+                  src="img/img-products/product-1.png"
+                  alt="single-product"
+                  class="img-fluid "
+                />
+              </div>
+              <div class="col-2 col-sm-2 small-product-photo p-1">
+                <img
+                  src="img/img-products/product-1.png"
+                  alt="single-product"
+                  class="img-fluid "
+                />
+              </div>
+              <div class="col-2 col-sm-2 small-product-photo p-1">
+                <img
+                  src="img/img-products/product-1.png"
+                  alt="single-product"
+                  class="img-fluid "
+                />
+              </div>
+              <div class="col-2 col-sm-2 small-product-photo p-1">
+                <img
+                  src="img/img-products/product-1.png"
+                  alt="single-product"
+                  class="img-fluid "
+                />
+              </div>
+              <div class="col-2 col-sm-2 small-product-photo p-1">
+                <img
+                  src="img/img-products/product-1.png"
+                  alt="single-product"
+                  class="img-fluid "
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-8 mx-auto my-4">
+            <!-- rating  -->
+            <div class="rating-product mx-5">
+              <span class=" rating-color"><i class="fas fa-star"></i></span>
+              <span class="rating-color"><i class="fas fa-star"></i></span>
+              <span class="rating-color"><i class="fas fa-star"></i></span>
+              <span class="rating-color"><i class="fas fa-star"></i></span>
+              <span class="rating-color"><i class="far fa-star"></i></span>
+              <span class="text-capitalize flex-md-grow-1"
+                >(25 customer reviews)</span
+              >
+            </div>
+            <!-- end of rating   -->
+            <h3 class="text-uppercase font-weight-bold">
+              premium office armchair
+            </h3>
+            <h3 class=" font-weight-bold"><span>$10.00 - $200.00</span></h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, eum
+              dignissimos expedita adipisci exercitationem fugit!
+            </p>
+            <h4 class="text-uppercase">
+              colors :
+              <span
+                class="d-inline-block product-color product-color-black"
+              ></span>
+              <span
+                class="d-inline-block product-color product-color-red"
+              ></span>
+              <span
+                class="d-inline-block product-color product-color-blue"
+              ></span>
+            </h4>
+            <h4 class="text-uppercase">
+              sizes :
+              <span class="d-inline-block mx-1">xs</span>
+              <span class="d-inline-block mx-1">s</span>
+              <span class="d-inline-block mx-1">m</span>
+              <span class="d-inline-block mx-1">l</span>
+              <span class="d-inline-block mx-1">xl</span>
+            </h4>
+            <div class="product-cart d-flex flex-wrap">
+              <div class="d-flex p-1 mx-1">
+                <span class="d-inline-block btn btn-black px-3 py-2 mr-2">
+                  -
+                </span>
+                <span class="d-inline-block btn btn-black px-3 py-2 mx-1">
+                  4
+                </span>
+                <span class="d-inline-block btn btn-black px-3 py-2 mx-1">
+                  +
+                </span>
+              </div>
+              <button
+                type="button"
+                class="btn btn-white btn-black px-2 py-2 mx-1"
+              >
+                whishlist
+              </button>
+              <button
+                type="button"
+                class="btn btn-white btn-yellow px-2 py-2 mx-1"
+              >
+                add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of single product   -->
+
+    <!-- info section -->
+    <section class="info py-4">
+      <div class="container ">
+        <div class="row align-items-center bg-infos py-4">
+          <div class="col-11 mx-auto ">
+            <div class="row info-heading mx-auto">
+              <div class="col-10 col-md-4  md-sm-0 mb-4">
+                <h5 class="text-capitalize text-muted">
+                  description
+                </h5>
+              </div>
+              <div class="col-10 col-md-4  md-sm-0 mb-4">
+                <h5 class="text-capitalize text-muted">
+                  additional information
+                </h5>
+              </div>
+              <div class="col-10 col-md-4  md-sm-0 mb-4">
+                <h5 class="text-capitalize text-muted">
+                  reviews(25)
+                </h5>
+              </div>
+            </div>
+            <p class="lead text-muted ">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,
+              sequi totam. Eligendi aut nemo corrupti ut alias, perferendis quod
+              sunt nesciunt deserunt tenetur blanditiis quia magni iure velit
+              obcaecati eveniet enim voluptatum ea. Sint facilis molestiae
+              officiis alias dolorum soluta debitis aperiam quae incidunt
+              aliquam impedit saepe quam, eaque consequatur nulla eos ab
+              accusamus quo! Recusandae consectetur corrupti maxime officia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of info-section -->
+    <!-- feature product -->
+    <section class="feature p-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h1 class="text-uppercase">feature product</h1>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              vero minima distinctio unde ipsam repellendus!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- single product -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4">
+            <div class="feature-container p-5">
+              <img
+                src="img/img-products/product-1.png"
+                class="img-fluid"
+                alt="product"
+              />
+              <span
+                class="feature-search"
+                data-toogle="model"
+                data-target="#product-modal"
+              >
+                <i class="fas fa-search"></i>
+              </span>
+              <a href="#" class="featured-store-link text-capitalize"
+                >add to cart
+              </a>
+            </div>
+            <h6 class="text-capitalize text-center my-2">
+              special product
+            </h6>
+            <h6 class="text-center mx-2">
+              <span class="text-muted old-price ">$200</span>
+              <span>$100</span>
+            </h6>
+          </div>
+          <!-- end of single product  -->
+          <!-- single product -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4">
+            <div class="feature-container p-5">
+              <img
+                src="img/img-products/product-2.png"
+                class="img-fluid"
+                alt="product"
+              />
+              <span
+                class="feature-search"
+                data-toogle="model"
+                data-target="#product-modal"
+              >
+                <i class="fas fa-search"></i>
+              </span>
+              <a href="#" class="featured-store-link text-capitalize"
+                >add to cart
+              </a>
+            </div>
+            <h6 class="text-capitalize text-center my-2">
+              special product
+            </h6>
+            <h6 class="text-center mx-2">
+              <span class="text-muted old-price ">$200</span>
+              <span>$100</span>
+            </h6>
+          </div>
+          <!-- end of single product  -->
+          <!-- single product -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4">
+            <div class="feature-container p-5">
+              <img
+                src="img/img-products/product-3.png"
+                class="img-fluid"
+                alt="product"
+              />
+              <span
+                class="feature-search"
+                data-toogle="model"
+                data-target="#product-modal"
+              >
+                <i class="fas fa-search"></i>
+              </span>
+              <a href="#" class="featured-store-link text-capitalize"
+                >add to cart
+              </a>
+            </div>
+            <h6 class="text-capitalize text-center my-2">
+              special product
+            </h6>
+            <h6 class="text-center mx-2">
+              <span class="text-muted old-price ">$200</span>
+              <span>$100</span>
+            </h6>
+          </div>
+          <!-- end of single product  -->
+          <!-- single product -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4">
+            <div class="feature-container p-5">
+              <img
+                src="img/img-products/product-4.png"
+                class="img-fluid"
+                alt="product"
+              />
+              <span
+                class="feature-search"
+                data-toogle="model"
+                data-target="#product-modal"
+              >
+                <i class="fas fa-search"></i>
+              </span>
+              <a href="#" class="featured-store-link text-capitalize"
+                >add to cart
+              </a>
+            </div>
+            <h6 class="text-capitalize text-center my-2">
+              special product
+            </h6>
+            <h6 class="text-center mx-2">
+              <span class="text-muted old-price ">$200</span>
+              <span>$100</span>
+            </h6>
+          </div>
+          <!-- end of single product  -->
+          <!-- single product -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4">
+            <div class="feature-container p-5">
+              <img
+                src="img/img-products/product-5.png"
+                class="img-fluid"
+                alt="product"
+              />
+              <span
+                class="feature-search"
+                data-toogle="model"
+                data-target="#product-modal"
+              >
+                <i class="fas fa-search"></i>
+              </span>
+              <a href="#" class="featured-store-link text-capitalize"
+                >add to cart
+              </a>
+            </div>
+            <h6 class="text-capitalize text-center my-2">
+              special product
+            </h6>
+            <h6 class="text-center mx-2">
+              <span class="text-muted old-price ">$200</span>
+              <span>$100</span>
+            </h6>
+          </div>
+          <!-- end of single product  -->
+          <!-- single product -->
+          <div class="col-10 mx-auto col-sm-6 col-lg-4">
+            <div class="feature-container p-5">
+              <img
+                src="img/img-products/product-6.png"
+                class="img-fluid"
+                alt="product"
+              />
+              <span
+                class="feature-search"
+                data-toogle="model"
+                data-target="#product-modal"
+              >
+                <i class="fas fa-search"></i>
+              </span>
+              <a href="#" class="featured-store-link text-capitalize"
+                >add to cart
+              </a>
+            </div>
+            <h6 class="text-capitalize text-center my-2">
+              special product
+            </h6>
+            <h6 class="text-center mx-2">
+              <span class="text-muted old-price ">$200</span>
+              <span>$100</span>
+            </h6>
+          </div>
+          <!-- end of single product  -->
+        </div>
+      </div>
+    </section>
+    <!-- end of feature product -->
+    <!-- carousel section -->
+    <section id="carousel" class="py-3 ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 col-md-6 col-lg-4 mx-auto">
+            <div
+              id="carouselControl"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active ">
+                  <img
+                    src="./img/company-logos/company-logo-1.png"
+                    class="d-block w-100 img-fluid"
+                    alt="company logo"
+                  />
+                </div>
+                <div class="carousel-item ">
+                  <img
+                    src="./img/company-logos/company-logo-2.png"
+                    class="d-block w-100 img-fluid"
+                    alt="company logo"
+                  />
+                </div>
+                <div class="carousel-item ">
+                  <img
+                    src="./img/company-logos/company-logo-3.png"
+                    class="d-block w-100 img-fluid"
+                    alt="company logo"
+                  />
+                </div>
+              </div>
+              <a
+                href="#carouselControl"
+                class="carousel-control-prev"
+                data-slide="prev"
+              >
+                <i class="fas fa-arrow-left"></i>
+              </a>
+              <a
+                href="#carouselControl"
+                class="carousel-control-next"
+                data-slide="next"
+              >
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of carousel section -->
+    <!-- newsletter section -->
+    <section id="newsletter" class="py-5">
+      <div class="container-fluid">
+        <!-- heading -->
+        <div class="row">
+          <div class="col-md-10 col-lg-6 mx-auto text-center">
+            <h3 class="text-uppercase">newsletter</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Deleniti, illo?
+            </p>
+            <form>
+              <div class="input-group mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="name"
+                  id="name"
+                  placeholder="Enter Your Email"
+                />
+                <div class="input-group-append ">
+                  <span class="input-group-text form-icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="btn btn-warning text-dark font-weight-bold mt-3 mx-auto "
+              >
+                subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <!-- end of heading -->
+      </div>
+    </section>
+
+    <!-- end of newsletter -->
+    <!-- service section -->
+    <section id="skill" class="py-5 bg-dark text-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- single columns  -->
+          <div class="col-8 col-md-6 col-lg-4 d-flex mb-4">
+            <div class="skill-icon mr-4">
+              <i class="fas fa-truck"></i>
+            </div>
+            <div class="skill-text">
+              <h3 class="text-uppercase font-weight-bold">free shipping</h3>
+              <p class="text-muted ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                cum molestias, praesentium pariatur corrupti eos.
+              </p>
+            </div>
+          </div>
+          <!-- end of single columns    -->
+          <div class="col-8 col-md-6 col-lg-4 d-flex mb-4">
+            <div class="skill-icon mr-4">
+              <i class="fas fa-comment-dollar"></i>
+            </div>
+            <div class="skill-text">
+              <h3 class="text-uppercase font-weight-bold">price promise</h3>
+              <p class="text-muted ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                cum molestias, praesentium pariatur corrupti eos.
+              </p>
+            </div>
+          </div>
+          <!-- end of single columns    -->
+          <!-- single columns  -->
+          <div class="col-8 col-md-6 col-lg-4 d-flex mt-lg-0 mt-md-5 mb-4">
+            <div class="skill-icon mr-4">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="skill-text">
+              <h3 class="text-uppercase font-weight-bold">life warranty</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                cum molestias, praesentium pariatur corrupti eos.
+              </p>
+            </div>
+          </div>
+          <!-- end of single columns    -->
+        </div>
+      </div>
+    </section>
+
+    <!-- end of service section -->
+    <!-- footer section -->
+    <section id="footer" class="py-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h1
+              class="text-uppercase font-weight-bold text-yellow footer-title text-center d-inline-block"
+            >
+              comfty sloth
+            </h1>
+            <div class="footer-icons  d-flex justify-content-center my-5">
+              <!-- single icon -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <!-- end of single icon -->
+              <!-- single icon -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fab fa-youtube fa-2x"></i>
+              </a>
+              <!-- end of single icon -->
+              <!-- single icon -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <!-- end of single icon -->
+              <!-- single icon -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fab fa-whatsapp fa-2x"></i>
+              </a>
+              <!-- end of single icon -->
+              <!-- single icon -->
+              <a href="#" class="footer-icon mx-2">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+              <!-- end of single icon -->
+            </div>
+            <p class="text-capitalize text-muted mt-5 px-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              dolor dolorem doloribus nesciunt eius odit debitis nam error esse!
+              Provident!
+            </p>
+            <div
+              class=" footer-contact mt-5 d-flex justify-content-center flex-wrap py-5 "
+            >
+              <!-- single columns   -->
+              <div class="contact-icon mx-4 mb-4">
+                <span><i class="fas fa-street-view fa-2x "></i></span>
+                <p class="text-dark text-capitalize d-inline">
+                  123 main street los angles
+                </p>
+              </div>
+              <!-- end of single columns -->
+              <!-- single columns   -->
+              <div class="contact-icon mx-4 mb-4">
+                <span><i class="fas fa-phone fa-2x"></i></span>
+                <p class="text-dark text-capitalize d-inline">
+                  phone :9998887770
+                </p>
+              </div>
+              <!-- end of single columns -->
+              <!-- single columns   -->
+              <div class="contact-icon mx-4 mb-4">
+                <span><i class="fas fa-envelope fa-2x"></i></span>
+                <p class="text-dark text-capitalize d-inline">
+                  123 main street los angles
+                </p>
+              </div>
+              <!-- end of single columns -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of footer section -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
